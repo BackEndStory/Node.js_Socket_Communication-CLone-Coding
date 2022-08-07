@@ -1,0 +1,34 @@
+{
+  "name": "gif-chat",
+  "version": "0.0.1",
+  "description": "GIF 웹 소켓 채팅방",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackEndStory/nodejs_socket_pratice.git"
+  },
+  "author": "LeesungRyeol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BackEndStory/nodejs_socket_pratice/issues"
+  },
+  "homepage": "https://github.com/BackEndStory/nodejs_socket_pratice#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "color-hash": "^2.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "nunjucks": "^3.2.3",
+    "socket.io": "^2.5.0",
+    "ws": "^8.8.1"
+  }
+}
